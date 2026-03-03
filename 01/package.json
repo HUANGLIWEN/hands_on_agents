@@ -1,0 +1,19 @@
+{
+  "name": "claude-agent-sdk-tutorial",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch agent.ts",
+    "start": "tsx agent.ts",
+    "review": "tsx review-agent.ts",
+    "structured": "tsx review-agent-structured.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.51"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
